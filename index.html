@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Batuhan</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet" >
+  </head>
+  <body>
+<div class="top-container">
+  <!-- block sayfanın genişliğinin tümünü alır yani yanına başka bişey koyamazsın
+   mesela programmer kısmında pro kısmını altı çizili yapcaksan yanına span gibi inline bişey koyman lazım
+   inline elemanlar kutu gibi yan yana koyulabilir fakat width özelliği değiştirilemez
+   inline block ikisinin arası inline gibi yan yana ve width özelliği değiştirilebiliyor
+   eğer none kullanırsan o elemanı silmiş gibi yapıyorsun eğer visibility: hidden; kullanırsan onu sadece görünmez yapıyorsun yeri sitede duruyor
+   children her zaman parent üstünde olur (3D düşün) birkaç katlı pastaya tepeden bakar gibi (Z elementi)
+   static elemanların default hali
+   relative eski yerine göre kendi pozisyonunu belirliyor (örn right: 20px yaparsan eleman eski yerine göre 20px sola gider.). eğer dikkatli kullanmazsan elemanlar üst üste çıkar çünkü diğerlerini etkilemiyor
+   absolute elemanın parenta göre pozisyon almasını sağlıyor. Sanki kendine parenta göre margin ekliyor gibi. Dikkatli kullanmazsan tüm elemanların yerleri kayabilir çünkü diğerlerini etkiliyor
+   fixed koyduğun yere kitli kalıyo scroll atsanda orda duruyor -->
+  <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+  <h1>I'm Batuhan.</h1>
+  <h2>a programmer.</h2>
+  <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+  <img src="images/mountain.png" alt="mountain-img">
+</div>
+
+<div class="middle-container">
+  <div class="profile">
+    <img src="images/prof.png" alt="profile-img" height="180px">
+    <h2>Hello.</h2>
+    <p class="intro">I'm programmer who loves building websites, mobile apps and windows applications.</p>
+  </div>
+  <hr>
+  <div class="skills">
+    <h2>My Skills.</h2>
+    <div class="skill-row">
+      <img class="skill-img1" src="images/coding.png" alt="coding-img">
+      <h3>Development</h3>
+      <p>I always curious about programming and when i see new language i want to learn all things about it.</p>
+    </div>
+    <div class="skill-row">
+      <img class="skill-img2" src="images/accuracy.png" alt="dedication-img">
+      <h3>Dedication</h3>
+      <p>I always give %100 of myself to my work and get best results.</p>
+    </div>
+  </div>
+  <hr>
+  <div class="contact-me">
+    <h2>Get In Touch</h2>
+    <h3>If you interested in my skills.</h3>
+    <p class="contact-message">You can mail me at anytime to get help or ask questions.</p>
+    <a class="btn" href="mailto:yasinbatuhanozyurek@email.com">CONTACT ME</a>
+  </div>
+</div>
+
+<div class="bottom-container">
+  <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+  <a class="footer-link" href="https://twitter.com/">Twitter</a>
+  <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+  <p class="copyright">© 2021 Yasin Batuhan Özyürek.</p>
+</div>
+
+
+  </body>
+</html>
